@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.textContent = "Загрузка...";
             
             setTimeout(() => {
-                this.textContent = "Готово!";
+                this.textContent = "Идите нахуй!";
                 setTimeout(() => {
                     this.textContent = originalText;
                 }, 1000);
