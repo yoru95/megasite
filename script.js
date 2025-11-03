@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.textContent = "Загрузка...";
             
             setTimeout(() => {
-                this.textContent = "Идите нахуй!";
+                this.textContent = "Готово!";
                 setTimeout(() => {
                     this.textContent = originalText;
                 }, 1000);
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const winnerNameSpan = document.getElementById('winnerName');
     
     // Здесь вы можете изменить имя на нужное
-    const winnerName = "Гей!";
+    const winnerName = "Победитель!";
     
     optionButtons.forEach(btn => {
         btn.addEventListener('click', function() {
